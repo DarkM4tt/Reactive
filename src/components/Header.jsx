@@ -35,46 +35,46 @@ const Header = () => {
               Rent
             </p>
           </Link>
-          <Link to="/buy">
-            <p
-              className={`${
-                pathMatchRoute("/buy") &&
-                "bg-violet-200 text-indigo-500 px-2 py-1 rounded"
-              }`}
-            >
-              Buy
-            </p>
-          </Link>
-          <Link to="/sell">
-            <p
-              className={`${
-                pathMatchRoute("/sell") &&
-                "bg-violet-200 text-indigo-500 px-2 py-1 rounded"
-              }`}
-            >
-              Sell
-            </p>
-          </Link>
-          <Link to="/manage-property">
-            <p
-              className={`${
-                pathMatchRoute("/manage-property") &&
-                "bg-violet-200 text-indigo-500 px-2 py-1 rounded"
-              }`}
-            >
-              Manage Property ˅
-            </p>
-          </Link>
-          <Link to="/resources">
-            <p
-              className={`${
-                pathMatchRoute("/resources") &&
-                "bg-violet-200 text-indigo-500 px-2 py-1 rounded"
-              }`}
-            >
-              Resources ˅
-            </p>
-          </Link>
+          {/* <Link to="/buy"> */}
+          <p
+            className={`${
+              pathMatchRoute("/buy") &&
+              "bg-violet-200 text-indigo-500 px-2 py-1 rounded"
+            }`}
+          >
+            Buy
+          </p>
+          {/* </Link> */}
+          {/* <Link to="/sell"> */}
+          <p
+            className={`${
+              pathMatchRoute("/sell") &&
+              "bg-violet-200 text-indigo-500 px-2 py-1 rounded"
+            }`}
+          >
+            Sell
+          </p>
+          {/* </Link> */}
+          {/* <Link to="/manage-property"> */}
+          <p
+            className={`${
+              pathMatchRoute("/manage-property") &&
+              "bg-violet-200 text-indigo-500 px-2 py-1 rounded"
+            }`}
+          >
+            Manage Property ˅
+          </p>
+          {/* </Link> */}
+          {/* <Link to="/resources"> */}
+          <p
+            className={`${
+              pathMatchRoute("/resources") &&
+              "bg-violet-200 text-indigo-500 px-2 py-1 rounded"
+            }`}
+          >
+            Resources ˅
+          </p>
+          {/* </Link> */}
         </div>
       </div>
 
