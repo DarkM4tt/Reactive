@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
-// import ListingItem from "../components/ListingItem";
+import ListingItem from "../components/ListingItem";
 import listings from "./../data";
 
 const Rent = () => {
@@ -128,13 +128,13 @@ const Rent = () => {
       <main>
         <ul className="sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
           {isFiltered &&
-            filteredListings.map((listing) => ({
-              /* <ListingItem key={listing.id} listing={listing} /> */
-            }))}
+            filteredListings.map((listing) => (
+              <ListingItem key={listing.id} listing={listing} />
+            ))}
           {!isFiltered &&
-            listings.map((listing) => ({
-              /* <ListingItem key={listing.id} listing={listing} /> */
-            }))}
+            listings.map((listing) => (
+              <ListingItem key={listing.id} listing={listing} />
+            ))}
         </ul>
       </main>
     </div>
