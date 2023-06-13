@@ -14,8 +14,8 @@ const Header = () => {
         </Link>
 
         {/* Options */}
-        {/* <div className="flex font-medium items-center text-gray-700 space-x-8">
-          <Link to="/rent">
+        <div className="flex font-medium items-center text-gray-700 space-x-8">
+          <Link to="/">
             <p className="bg-violet-200 text-indigo-500 px-2 py-1 rounded">
               Rent
             </p>
@@ -24,7 +24,7 @@ const Header = () => {
           <p>Sell</p>
           <p>Manage Property ˅</p>
           <p>Resources ˅</p>
-        </div> */}
+        </div>
       </div>
 
       {/* Buttons */}
